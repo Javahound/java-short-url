@@ -8,7 +8,7 @@ import Image from "next/image"
 import Meta from "../components/Meta"
 import lStyle from "../styles/Login.module.css"
 
-const title = "Home - " + titleBotName
+const title =  titleBotName
 
 const web = () => {
   Router.push('https://javahound.site/')
