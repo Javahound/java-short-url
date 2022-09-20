@@ -22,9 +22,6 @@ const yt = () => {
 const twitch = () => {
   Router.push('https://twitch.tv/justjavahound')
 }
-const twitter = () => {
-  Router.push('https://twitter.com/JustJavahound')
-}
 
 function Home() {
   return (
@@ -43,7 +40,6 @@ function Home() {
             <button className={styles.btn} onClick={tt}>TikTok</button>
             <button className={styles.btn} onClick={yt}>Youtube</button>
             <button className={styles.btn} onClick={twitch}>Twitch</button>
-            <button className={styles.btn} onClick={twitter}>Twitter</button>
           </div>
         </div>
     </div>
