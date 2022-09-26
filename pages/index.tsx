@@ -28,6 +28,8 @@ function Home() {
     <>
       <Head>
         <title>{title}</title>
+        <title>Javahound&apos;s Socials n Stuff</title>
+        <meta name="description" content="Here you can find all the stuff I'm on and using. My socials, website, etc." />
       </Head>
       <div>
         <Meta title={title} />
