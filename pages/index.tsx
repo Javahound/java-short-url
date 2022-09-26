@@ -8,8 +8,6 @@ import Image from "next/image"
 import Meta from "../components/Meta"
 import lStyle from "../styles/Login.module.css"
 
-const title =  titleBotName
-
 const web = () => {
   Router.push('https://javahound.site/')
 }
@@ -27,12 +25,10 @@ function Home() {
   return (
     <>
       <Head>
-        <title>{title}</title>
         <title>Javahound&apos;s Socials n Stuff</title>
         <meta name="description" content="Here you can find all the stuff I'm on and using. My socials, website, etc." />
       </Head>
       <div>
-        <Meta title={title} />
         <div className="page aligned-center">
           <Image className={lStyle.image} src="/logo.png" alt="logo" width={200} height={200} />
           <div className="spacing"></div>
