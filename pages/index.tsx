@@ -29,6 +29,12 @@ function Home() {
         <meta name="description" content="Here you can find all the stuff I'm on and using. My socials, website, etc." />
         <meta itemProp="image" content="logo.png"  />
         <link rel="icon" href="logo.png" type="image" />
+        <meta property="og:title" content="Site Title" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://jhound.site" />
+        <meta property="og:image" content="http://jhound.site/logo.png" />
+        <meta property="og:description" content="Here you can find all the stuff I'm on and using. My socials, website, etc." />
+        <meta name="theme-color" content="#836fdc"></meta>
       </Head>
       <div>
         <div className="page aligned-center">
