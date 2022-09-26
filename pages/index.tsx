@@ -27,6 +27,7 @@ function Home() {
       <Head>
         <title>Javahound&apos;s Socials n Stuff</title>
         <meta name="description" content="Here you can find all the stuff I'm on and using. My socials, website, etc." />
+        <link itemProp="image" href="/logo.png" />
       </Head>
       <div>
         <div className="page aligned-center">
